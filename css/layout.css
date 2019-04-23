@@ -1,0 +1,80 @@
+body{
+  width: 960px;
+}
+/* code from https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries */
+@media only screen and (max-width: 768px){
+  div{
+    width: 480px;
+    margin: 0 auto 0 auto;
+  }
+  .header{
+    height: 75px;
+    background-color: blue;
+  }
+  .aside{
+    height: 150px;
+    background-color: yellow;
+  }
+  .top-block{
+    font-size: medium;
+    height: 122px;
+  }
+  section{
+    display: 
+  }
+  .quarter-block{
+    font-size: medium;
+    height: 250px;
+  }
+  .quarter{
+    font-size: medium;
+    width: 238px;
+    height: 248px;
+    float: left;
+  }
+  .bottom-block{
+    height: 80px;
+    background-color: orange;
+  }
+}
+@media only screen and (min-width: 769px){
+  body{
+    margin: 10% auto 10% auto;
+  }
+  .header{
+    height: 100px;
+    background-color: greenyellow;
+  }
+  .aside{
+    height: 599px;
+    width: 200px;
+    float: left;
+    background-color: goldenrod;
+  }
+  section{
+    float: right;
+    font-size: 0;
+  }
+  .top-block{
+    clear: both;
+    display: inline-block;
+    height: 200px;
+    width: 377px;
+  }
+  .quarter-block{
+    display: inline-block;
+    height: 247px;
+    width: 377px;
+  }
+  .quarter{
+    display: inline-block;
+    height: 250px;
+    width: 186px;
+  }
+  .bottom-block{
+    display: inline-block;
+    height: 148px;
+    width: 756px;
+    background-color: fuchsia;
+  }
+}

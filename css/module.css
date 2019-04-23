@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px){
+  #left{
+    background-color: green;
+  }
+  #right{
+    background-color: red;
+  }
+  #q1{
+    background-color: purple;
+  }
+  #q2{
+    background-color: pink;
+  }
+  #q3{
+    background-color: gray;
+  }
+  #q4{
+    background-color: yellow;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  #left{
+    background-color: yellow;
+  }
+  #right{
+    background-color: blue;
+  }
+  #q1{
+    background-color: orangered;
+  }
+  #q2{
+    background-color: aliceblue;
+  }
+  #q3{
+    background-color: aquamarine;
+  }
+  #q4{
+    background-color: tan;
+  }
+}
